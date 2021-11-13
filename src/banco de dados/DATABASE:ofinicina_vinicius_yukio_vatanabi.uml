@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c2e79e4a-d46d-470b-ac33-67397d5d111b.DATABASE:ofinicina_vinicius_yukio_vatanabi</OriginalElement>
+  <nodes>
+    <node x="306.0" y="436.0">c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.cliente_carro</node>
+    <node x="74.0" y="436.0">c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.oficina_carro</node>
+    <node x="196.5" y="174.0">c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.carro</node>
+    <node x="78.5" y="0.0">c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.oficina</node>
+    <node x="315.5" y="11.0">c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.oficina_carro" target="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.carro" relationship="REFERENCES">
+      <point x="53.0" y="-38.5" />
+      <point x="233.0" y="410.0" />
+      <point x="296.0" y="410.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.cliente_carro" target="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.carro" relationship="REFERENCES">
+      <point x="-53.0" y="-38.5" />
+      <point x="359.0" y="410.0" />
+      <point x="296.0" y="410.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.carro" target="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.oficina" relationship="REFERENCES">
+      <point x="-49.75" y="-105.0" />
+      <point x="246.25" y="148.0" />
+      <point x="187.0" y="148.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.oficina_carro" target="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.oficina" relationship="REFERENCES">
+      <point x="-53.0" y="-38.5" />
+      <point x="127.0" y="410.0" />
+      <point x="175.0" y="410.0" />
+      <point x="175.0" y="148.0" />
+      <point x="187.0" y="148.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.carro" target="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.cliente" relationship="REFERENCES">
+      <point x="49.75" y="-105.0" />
+      <point x="345.75" y="148.0" />
+      <point x="405.0" y="148.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.cliente_carro" target="c2e79e4a-d46d-470b-ac33-67397d5d111b.TABLE:ofinicina_vinicius_yukio_vatanabi.public.cliente" relationship="REFERENCES">
+      <point x="53.0" y="-38.5" />
+      <point x="465.0" y="410.0" />
+      <point x="417.0" y="410.0" />
+      <point x="417.0" y="148.0" />
+      <point x="405.0" y="148.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6397748592870544" showDependencies="false" x="259.0" y="256.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

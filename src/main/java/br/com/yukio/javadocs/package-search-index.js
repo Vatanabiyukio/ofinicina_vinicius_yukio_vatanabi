@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"br.com.yukio"},{"l":"br.com.yukio.controller"},{"l":"br.com.yukio.model"},{"l":"br.com.yukio.persistence"},{"l":"br.com.yukio.util"}];updateSearchResults();
